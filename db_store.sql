@@ -31,3 +31,8 @@ create table kasir(
 );
 
 show tables;
+
+CREATE TABLE purchases (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    total DECIMAL(10, 2)
+);

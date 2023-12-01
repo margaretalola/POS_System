@@ -14,10 +14,4 @@ def conn():
 def get_cursor(connection):
     return connection.cursor()
 
-tb_name = ["kasir", "inventory"]
-
-# cursor = conn.cursor()
-
-# checking.check_connection(conn)
-# checking.using_database(conn.cursor(), "pos_system")  # Perbaiki penggunaan fungsi
-# checking.check_table_exist(conn.cursor(), tb_name)
+tb_name = ["kasir", "inventory", "purchases"]
